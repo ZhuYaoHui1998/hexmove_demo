@@ -1,0 +1,9 @@
+<launch>
+        <include file="./src/demo/demo_general_chassis/demo_vehicle/ROS1/launch/demo_basic_ctrl.launch" />
+        <include file="$(find livox_ros_driver2)/launch_ROS1/rviz_MID360.launch" />
+        <include file="$(find xpkg_urdf_echo)/launch/ROS1/display.launch" />
+        <include file="$(find pointcloud_to_laserscan)/launch/sample_node.launch" />
+        <include file="$(find nav)/launch/map_pub.launch" />
+        <include file="$(find nav)/launch/amcl.launch" />
+        <include file="$(find nav)/launch/nav.launch" />
+</launch>

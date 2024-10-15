@@ -1,0 +1,11 @@
+NavfnROS:
+ allow_unknown: true
+ default_tolerance: 0.05
+ visualize_potential: true
+ publish_potential: true
+ use_quadratic: true
+ use_dijkstra: true
+ allow_unknown: true
+ cost_factor: 3
+ outline_map: false
+
