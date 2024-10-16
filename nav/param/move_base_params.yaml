@@ -13,3 +13,5 @@ oscillation_timeout: 3.0
 oscillation_distance: 0.2
 planner_frequency: 10.0
 max_planning_retries: -1
+xy_goal_tolerance: 0.15
+yaw_goal_tolerance: 0.3

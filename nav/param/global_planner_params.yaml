@@ -1,6 +1,6 @@
 NavfnROS:
  allow_unknown: true
- default_tolerance: 0.05
+ default_tolerance: 0.2
  visualize_potential: true
  publish_potential: true
  use_quadratic: true
