@@ -16,3 +16,9 @@ roslaunch nav gmapping.launch
 ```bash
 roslaunch nav map_save.launch 
 ```
+
+
+# waypoint multy goal navigation 
+```bash
+python /path to nav package/scripts/waypoint.py
+```
