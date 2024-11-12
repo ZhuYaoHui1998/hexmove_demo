@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(xpkg_urdf_echo)
 
-set(X_ROS_VERSION $ENV{ROS_VERSION})
+set(X_ROS_VERSION 1)
 message(STATUS "Your ROS version is ROS${X_ROS_VERSION}")
 
 add_definitions(-DX_ROS_VERSION=${X_ROS_VERSION}) 
