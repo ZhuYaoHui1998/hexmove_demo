@@ -1,5 +1,5 @@
 NavfnROS:
- allow_unknown: true
+ allow_unknown: false
  default_tolerance: 0.2
  visualize_potential: true
  publish_potential: true

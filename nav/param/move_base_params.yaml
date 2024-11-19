@@ -10,7 +10,7 @@ recovery_behavior_enabled: true
 clearing_rotation_allowed: false
 shutdown_costmaps: false
 oscillation_timeout: 3.0
-oscillation_distance: 0.2
+oscillation_distance: 0.4
 planner_frequency: 10.0
 max_planning_retries: -1
 xy_goal_tolerance: 0.15
